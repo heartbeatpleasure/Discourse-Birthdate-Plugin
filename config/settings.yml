@@ -1,0 +1,23 @@
+plugins:
+  hbp_birthdate_enabled:
+    default: true
+    client: true
+
+  hbp_birthdate_lock_after_signup:
+    default: true
+    client: true
+
+  hbp_birthdate_year_range_years:
+    default: 120
+    client: true
+
+  # IMPORTANT: default 18 so year 2019 is rejected on adult communities.
+  # Set to 0 if you do not want an age minimum.
+  hbp_birthdate_min_age:
+    default: 18
+    client: false
+
+  # Set to 0 to disable max age check
+  hbp_birthdate_max_age:
+    default: 120
+    client: false

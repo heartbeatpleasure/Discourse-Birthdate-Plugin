@@ -1,0 +1,9 @@
+en:
+  hbp_birthdate:
+    errors:
+      missing: "Please select your full birthdate (day, month and year)."
+      invalid_date: "That birthdate is not a valid calendar date."
+      invalid_year: "That birth year is not valid."
+      future_date: "Birthdate cannot be in the future."
+      too_young: "You must be at least %{min_age} years old to register."
+      too_old: "Please enter a valid birth year (max age %{max_age})."
